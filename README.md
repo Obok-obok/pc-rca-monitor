@@ -156,7 +156,7 @@ streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 대시보드는 GCP VM에서 실행되며 다음 주소로 접속 가능합니다:
 
 ```
-http://<VM_EXTERNAL_IP>:8501
+http://104.198.67.51:8501/
 ```
 
 외부 IP 확인:
