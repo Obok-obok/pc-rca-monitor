@@ -153,16 +153,6 @@ streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 
 ## 🌐 Live Demo
 
-<a href="https://your-app-name.streamlit.app" target="_blank">
-  <img src="https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen?logo=streamlit" />
-</a>
-
-<a href="https://your-app-name.streamlit.app" target="_blank">
-  👉 Open Live Dashboard
-</a>
-
-
-
 [![Open App](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen?logo=streamlit)](https://pc-rca-monitor-pa6hbqdyhyfwaeqyyk3va7.streamlit.app/)
 
 🔗 **[Open Streamlit Dashboard](https://pc-rca-monitor-pa6hbqdyhyfwaeqyyk3va7.streamlit.app/)**
