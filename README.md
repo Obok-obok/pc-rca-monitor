@@ -155,9 +155,6 @@ streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 
 [![Open App](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen?logo=streamlit)](https://pc-rca-monitor-pa6hbqdyhyfwaeqyyk3va7.streamlit.app/)
 
-
-## 🌐 Live Demo (GCP VM)
-
 🔗 **[Open Streamlit Dashboard](https://pc-rca-monitor-pa6hbqdyhyfwaeqyyk3va7.streamlit.app/)**
 
 외부 IP 확인:
