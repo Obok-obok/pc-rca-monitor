@@ -1,0 +1,5 @@
+{
+  "python.defaultInterpreterPath": "/home/home/pc_rca/rca_env/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.indexing": false
+}

@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+rca_env/
+
+# Logs
+logs/
+
+# OS
+.DS_Store
