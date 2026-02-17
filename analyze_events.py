@@ -23,7 +23,7 @@ for idx, event in events.iterrows():
     
     print("\n=== 이벤트 시각:", event_time, "===")
     print("이벤트 CPU:", event["cpu_pct"])
-    print("이벤트 Threshold:", event["threshold"])
+    print("이벤트 z_score:", event["z_score"])
 
     if len(before_data) > 0:
         print("이전 30초 평균 CPU:", round(before_data["cpu_pct"].mean(), 2))
