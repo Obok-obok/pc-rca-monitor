@@ -157,17 +157,6 @@ streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 
 🔗 **[Open Streamlit Dashboard](https://pc-rca-monitor-pa6hbqdyhyfwaeqyyk3va7.streamlit.app/)**
 
-외부 IP 확인:
-
-```bash
-gcloud compute instances describe free-vm --zone us-central1-a \
-  --format="get(networkInterfaces[0].accessConfigs[0].natIP)"
-```
-
-```bash
-http://<VM_EXTERNAL_IP>:8501/
-```
-
 ### ⚠ 참고
 
 - VM이 Running 상태여야 합니다.
