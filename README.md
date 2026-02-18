@@ -5,11 +5,11 @@ Real-Time CPU Anomaly Detection & Root Cause Analysis Dashboard
 
 ## 📌 Overview
 
-PC RCA Monitor는 실시간 시스템 지표(CPU/MEM)를 수집하고  
-통계 기반 이상 감지(EWMA + Z-score)를 통해 성능 저하 이벤트를 탐지하며,  
-해당 시점의 Top 프로세스를 기록하여 Root Cause를 식별하는 프로젝트입니다.
+- PC RCA Monitor는 실시간 시스템 지표(CPU/MEM)를 수집 
+- 통계 기반 이상 감지(EWMA + Z-score)를 통해 성능 저하 이벤트를 탐지 
+- 해당 시점의 Top 프로세스를 기록하여 Root Cause를 식별하는 프로젝트
 
-이 프로젝트는 다음 질문에 답하기 위해 설계되었습니다:
+이 프로젝트는 다음 질문에 답하기 위해 설계:
 
 - 언제부터 느려졌는가? (현상 감지)
 - 왜 느려졌는가? (원인 후보 식별)
@@ -20,8 +20,7 @@ PC RCA Monitor는 실시간 시스템 지표(CPU/MEM)를 수집하고
 ## 🚀 Features
 
 - 실시간 CPU / MEM 수집 (`psutil`)
-- EWMA 기반 평균 추정
-- EWMA 기반 분산 추정
+- EWMA 기반 평균/분산 추정
 - Z-score 기반 이상 감지
 - 이상 발생 시 Top 프로세스 스냅샷 기록
 - 자동 Markdown 리포트 생성
@@ -66,7 +65,7 @@ logs/                     # metrics / events 로그 (git 제외)
 
 ### EWMA (Exponential Weighted Moving Average)
 
-최근 데이터에 더 높은 가중치를 두어 평균을 실시간으로 추정합니다.
+최근 데이터에 더 높은 가중치를 두어 평균을 실시간으로 추정
 
 ```
 new_mean = α * x + (1-α) * prev_mean
@@ -159,9 +158,9 @@ streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 
 ### ⚠ 참고
 
-- VM이 Running 상태여야 합니다.
-- 방화벽에서 tcp:8501 포트가 열려 있어야 합니다.
-- Stop/Start 시 외부 IP가 변경될 수 있습니다.
+- VM이 Running 상태여야 함
+- 방화벽에서 tcp:8501 포트가 Open되어야 함
+- Stop/Start 시 외부 IP가 변경될 수 있음
 
 ---
 
